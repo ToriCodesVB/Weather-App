@@ -25,13 +25,11 @@ li {
 }
 
 .weather-app {
-    border: 1px solid #dadde1;
-    padding: 15px;
-    margin: 20px auto;
-    border-radius: 10px;
-    max-width: 600px;
+box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+    margin: 20px 0;
+    max-width: 630px;
+    padding: 20px 16px 24px 16px;
 }
-
 .weather-icon {
     height: 64px;
     width: 64px;
@@ -52,4 +50,9 @@ li {
 
 .search-form {
     margin-bottom: 20px;
+}
+small {
+    font-size: 80%;
+    font-weight: 400;
+   
 }
